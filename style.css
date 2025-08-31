@@ -51,15 +51,26 @@ nav{
     padding: 15px 0;
 }
 .menu div p{
-    display: flex;
     justify-content: center;
     position: relative;
     top: 17px;
+}
+.drop:hover{
+    color:white
 }
 .active{
     background-color:rgb(46, 49, 146);
     color:white;
 
+}
+.menu div a.active {
+    background-color: rgb(46, 49, 146);
+    color: white !important;
+}
+.drop ul li a.active {
+    background-color: rgb(46, 49, 146);
+    color: white !important;
+    border-radius: 8px;
 }
 .drop{
     position: relative;
@@ -78,15 +89,11 @@ ul{
     border: 2px solid black;
     top: 63px;
 }
-.drop ul li a{
-    display: block;
-    width: 100%;
-    padding: 10px 0px;
-}
 .drop ul li a:hover{
     background-color:rgb(46, 49, 146);
     border-radius: 8px;
 }
+
 nav a:hover{
     color: white;
 }
@@ -136,3 +143,22 @@ footer a:hover {
     color: yellow !important;   
     background-color: black !important;
 }
+.box {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin: 40px;
+    
+}
+
+.address, .contacts {
+    background-color:white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+
+
+
+
