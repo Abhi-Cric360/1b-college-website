@@ -56,15 +56,6 @@ nav{
 .drop:hover{
     color:white
 }
-.active{
-    background-color:rgb(46, 49, 146);
-    color:white;
-
-}
-.active {
-    background-color: rgb(46, 49, 146);
-    color: white !important;
-}
 .active {
     background-color: rgb(46, 49, 146);
     color: white !important;
@@ -150,13 +141,10 @@ footer a:hover {
 
 .address, .contacts {
     background-color:white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
     padding: 20px 40px;
     border-radius: 10px;
 }
-
-
-
 
 
 
