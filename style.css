@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: Segoe UI;
+    
+}
+
+header{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.logo img{
+    height: 100px;
+}
+.name{
+padding: 10px;
+}
+nav{
+    background-color: rgb(231, 230, 37);
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    font-weight: 400;
+    top: 105px;
+    position: fixed;
+    z-index: 99;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu div{
+    flex: 1;
+    text-align: center;
+}
+.menu div a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px 0;
+}
+.menu div p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 17px;
+}
+.active{
+    background-color:rgb(46, 49, 146);
+    color:white;
+
+}
+.drop{
+    position: relative;
+}
+ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+.drop:hover ul {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid black;
+    top: 63px;
+}
+.drop ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+}
+.drop ul li a:hover{
+    background-color:rgb(46, 49, 146);
+    border-radius: 8px;
+}
+nav a:hover{
+    color: white;
+}
+.image{
+    margin: 40px;
+    margin-top: 220px;
+    position: relative;
+    z-index: 1;
+}
+.image img{
+    width: 100%;
+    display: block;
+}
+.image h1{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 115px;
+    color:white;
+    bottom: 80px;
+}
+.text{
+    margin: 50px;
+    text-align: justify;
+    line-height: 24px;
+    font-size:large;
+}
+span{
+    font-weight: 800;
+    font-size: 17px;
+    font-weight: 700;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+footer a:hover {
+    color: yellow !important;   
+    background-color: black !important;
+}
