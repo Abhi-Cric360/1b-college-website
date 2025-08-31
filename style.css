@@ -65,10 +65,9 @@ nav{
     background-color: rgb(46, 49, 146);
     color: white !important;
 }
-.drop ul li a.active {
+.active {
     background-color: rgb(46, 49, 146);
     color: white !important;
-    border-radius: 8px;
 }
 .drop{
     position: relative;
@@ -155,6 +154,7 @@ footer a:hover {
     padding: 20px 40px;
     border-radius: 10px;
 }
+
 
 
 
