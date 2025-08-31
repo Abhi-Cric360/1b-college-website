@@ -61,7 +61,7 @@ nav{
     color:white;
 
 }
-.menu div a.active {
+.active {
     background-color: rgb(46, 49, 146);
     color: white !important;
 }
@@ -154,6 +154,7 @@ footer a:hover {
     padding: 20px 40px;
     border-radius: 10px;
 }
+
 
 
 
