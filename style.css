@@ -17,6 +17,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    gap: 600px;
 }
 .logo img{
     height: 100px;
@@ -30,7 +31,7 @@ nav{
     height: auto;
     font-size: 25px;
     font-weight: 400;
-    top: 105px;
+    top: 100px;
     position: fixed;
 }
 .menu{
@@ -75,7 +76,7 @@ ul{
     width: 100%;
     border-radius: 8px;
     border: 2px solid black;
-    top: 63px;
+    top: 60px;
 }
 .drop ul li a:hover{
     background-color:rgb(46, 49, 146);
@@ -145,7 +146,6 @@ footer a:hover {
     padding: 20px 40px;
     border-radius: 10px;
 }
-
 
 
 
